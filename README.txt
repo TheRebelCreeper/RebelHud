@@ -7,7 +7,9 @@ http://steamcommunity.com/groups/RebelHUD
 My TF2 HUD
 
 How to install: 
-Drag the folder called RebelHud (Not RebelHud-master)  to C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\custom\
+Drag the folder called custom to C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\
+
+You can also just double click on the installer.
 
 Enable captions:
 Put these lines in your autoexec file
