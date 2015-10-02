@@ -1,0 +1,36 @@
+v1.06
+{
+Removed some unusued code
+Fixed Rage and Projectile Shield in MvM
+Added money remaining to mvm
+}
+v1.05
+{
+Added damage to the scoreboard
+Added support for tradeup contracts
+Added support for showing picked up weapons
+}
+v1.04
+{
+Changed font size for damage indicator
+Added support for the Gun Mettle Update
+}
+v1.03
+{
+Removed End Of The Line menu
+}
+v1.02
+{
+Updated for End Of The Line
+}
+
+v1.01
+{
+	Changed location of the map name in the scoreboard. 
+	Added DemoUI button to the main menu.
+}
+
+v1.00
+{
+	Original Release
+}
