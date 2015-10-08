@@ -262,7 +262,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.06"
+		"labelText"		"Rebel HUD 1.07"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
