@@ -191,6 +191,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -205,7 +209,7 @@
 		}
 		if_operation
 		{
-			"image"		"../console/title_summer_operation_2015"
+			"image"		"../console/title_team_halloween2015"
 		}
 		if_community_update
 		{
@@ -262,7 +266,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.07"
+		"labelText"		"Rebel HUD 1.08"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
@@ -4054,37 +4058,22 @@
 				{
 					"0"
 					{
-						"item"		"Unused Invasion Pass"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Halloween 2015 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Invasion Key"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
+						"item"		"Halloween 2015 case"
 					}
 					"2"
 					{
-						"item"		"Invasion Case 01"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Zoomin' Broom"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Invasion Case 02"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Maggot's Condolence"
+						"show_market"	"0"
 					}
 				}
 			}

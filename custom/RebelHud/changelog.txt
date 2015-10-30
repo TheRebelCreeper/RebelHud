@@ -1,27 +1,35 @@
+v1.08
+{
+	Added support for scream fortress 2015 (Basic support, more to come)
+}
+v1.07
+{
+	Added support for invasion
+}
 v1.06
 {
-Removed some unusued code
-Fixed Rage and Projectile Shield in MvM
-Added money remaining to mvm
+	Removed some unusued code
+	Fixed Rage and Projectile Shield in MvM
+	Added money remaining to mvm
 }
 v1.05
 {
-Added damage to the scoreboard
-Added support for tradeup contracts
-Added support for showing picked up weapons
+	Added damage to the scoreboard
+	Added support for tradeup contracts
+	Added support for showing picked up weapons
 }
 v1.04
 {
-Changed font size for damage indicator
-Added support for the Gun Mettle Update
+	Changed font size for damage indicator
+	Added support for the Gun Mettle Update
 }
 v1.03
 {
-Removed End Of The Line menu
+	Removed End Of The Line menu
 }
 v1.02
 {
-Updated for End Of The Line
+	Updated for End Of The Line
 }
 
 v1.01
