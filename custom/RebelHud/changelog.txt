@@ -1,3 +1,7 @@
+v1.081
+{
+	Fixed an alignment issue for MVM currency
+}
 v1.08
 {
 	Added support for scream fortress 2015 (Basic support, more to come)
