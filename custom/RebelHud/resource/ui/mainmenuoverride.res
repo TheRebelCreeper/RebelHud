@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumSmallSecondary"
 		"labelText"		"Rebel HUD 1.08b"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
