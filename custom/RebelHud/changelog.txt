@@ -1,8 +1,8 @@
-v1.082
+v1.08c
 {
 	Updated main menu background.
 }
-v1.081
+v1.08b
 {
 	Fixed an alignment issue for MVM currency
 }
