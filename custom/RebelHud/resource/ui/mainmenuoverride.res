@@ -3,19 +3,39 @@
 	"HudVersion"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"HudName"
-		"font"			"HudFontMediumSmallSecondary"
+		"fieldName"		"HudVersion"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"Rebel HUD 1.08b"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
-		"wide"			"140"
+		"zpos"			"2"
+		"wide"			"150"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
+	}
+	
+	"HudVersionBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HudVersionBG"
+		"font"			"HudFontMediumSmallBold"
+		"labelText"		"Rebel HUD 1.08b"
+		"textAlignment"	"west"
+		"xpos"			"c-279"
+		"ypos"			"84"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"0 0 0 255"
 	}
 
 	MainMenuOverride
@@ -2933,7 +2953,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"c-300"
+		"xpos"			"c-287"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"150"
@@ -2979,7 +2999,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BackToReplaysButton"
-		"xpos"			"c-300"
+		"xpos"			"c-287"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"170"
