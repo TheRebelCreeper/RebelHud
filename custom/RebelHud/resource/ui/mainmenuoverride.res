@@ -1,5 +1,23 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	"HudVersion"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HudName"
+		"font"			"HudFontMediumSmallBold"
+		"labelText"		"Rebel HUD 1.08b"
+		"textAlignment"	"west"
+		"xpos"			"c-278"
+		"ypos"			"83"
+		"wide"			"140"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"235 227 203 255"
+	}
+
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"
@@ -203,18 +221,18 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
-		if_operation
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_community_update
-		{
-			"image"		"../console/title_invasion"
-		}
+		//if_eotl_launch
+		//{
+		//	"image"		"../console/title_eotl01"
+		//}
+		//if_operation
+		//{
+		//	"image"		"../console/title_team_halloween2015"
+		//}
+		//if_community_update
+		//{
+		//	"image"		"../console/title_invasion"
+		//}
 	}
 					
 	"TFLogoImage"
@@ -261,23 +279,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}	
-	"HudVersion"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HudName"
-		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.08"
-		"textAlignment"	"west"
-		"xpos"			"c-278"
-		"ypos"			"83"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"235 227 203 255"
-	}
+	
 	"PlayLabel"
 	{
 		"ControlName"	"CExLabel"
