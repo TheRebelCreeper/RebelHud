@@ -1,3 +1,8 @@
+v1.091
+{
+	Added support for Tough Break.
+	Scoreboard will be broken a bit because Valve broke it.
+}
 v1.08c
 {
 	Updated main menu background.
