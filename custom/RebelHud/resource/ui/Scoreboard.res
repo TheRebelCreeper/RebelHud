@@ -12,7 +12,7 @@
 		"enabled"			"1"
 		"medal_width"      	"20"
 		"avatar_width"		"65"
-		"spacer"			"5"
+		"spacer"			"0"
 		"name_width"		"100"
 		"name_width_short"	"50"
 		"nemesis_width"		"25"
