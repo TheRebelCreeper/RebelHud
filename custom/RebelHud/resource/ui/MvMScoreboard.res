@@ -28,6 +28,21 @@
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
+	
+	"PopFileLabelBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PopFileLabelBG"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%popfile%"
+		"textAlignment"	"center"
+		"xpos"			"156"
+		"ypos"			"391"
+		"zpos"			"-1"
+		"wide"			"290"
+		"tall"			"20"
+		"fgcolor"		"SuperBlack"
+	}
 
 	"DifficultyContainer"
 	{
@@ -89,8 +104,8 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"9"
+			"xpos"			"1"
+			"ypos"			"10"
 			"zpos"			"-1"
 			"wide"			"150"
 			"tall"			"10"
