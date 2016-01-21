@@ -53,6 +53,21 @@
 			"fgcolor"		"tanlight"
 		}
 		
+		"DifficultyLabelBG"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DifficultyLabelBG"
+			"font"			"HudFontSmallest"
+			"labelText"		"#TF_MvM_Difficulty"
+			"textAlignment"	"center"
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"150"
+			"tall"			"10"
+			"fgcolor"		"SuperBlack"
+		}
+		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
@@ -65,6 +80,21 @@
 			"wide"			"150"
 			"tall"			"10"
 			"fgcolor"		"tanlight"
+		}
+		
+		"DifficultyValueBG"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DifficultyValueBG"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%difficultyvalue%"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"9"
+			"zpos"			"-1"
+			"wide"			"150"
+			"tall"			"10"
+			"fgcolor"		"SuperBlack"
 		}
 	}
 	
