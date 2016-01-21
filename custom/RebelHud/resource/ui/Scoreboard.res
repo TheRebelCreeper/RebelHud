@@ -153,6 +153,7 @@
 		"enabled"		"1"
         if_mvm
         {
+			"xpos"		"100000000"
             "visible"   "0"
         }
 	}
@@ -234,6 +235,7 @@
 		"enabled"		"1"
         if_mvm
         {
+			"xpos"		"100000000"
             "visible"   "0"
         }
 	}
