@@ -1,3 +1,7 @@
+v1.092
+{
+	Fixed alignment issues with MVM.
+}
 v1.091
 {
 	Added support for Tough Break.

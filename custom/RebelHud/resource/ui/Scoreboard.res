@@ -136,7 +136,6 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-
 	}
 	"BlueTeamLabel"
 	{
@@ -386,7 +385,7 @@
         if_mvm
         {
             "ypos"  "360"
-			"xpos"	"120"
+			"xpos"	"0"
         }
 	}
 	"ServerTimeLeftBG"
@@ -406,8 +405,8 @@
 		"fgcolor"		"SuperBlack"
         if_mvm
         {
-			"ypos"  "361"
-			"xpos"		"121"
+			"ypos"  	"361"
+			"xpos"		"1"
         }
 	}
 	
