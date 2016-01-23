@@ -322,7 +322,7 @@
 		"enabled"		"1"
         if_mvm
         {
-            "ypos"  "372"
+            "ypos"  "362"
             "xpos"  "104"
         }
 	}
