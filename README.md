@@ -14,9 +14,9 @@ There are two ways to install this HUD.
 1. Run RebelHUD Installer.jar. It should automatically install the HUD for you.
 2. Drag the folder named custom to any of the following locations:
  
-* C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\  
-* C:\Program Files\Steam\steamapps\common\team fortress 2\tf\  
-* Users/username/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom/ (Only for Macs)
+    * C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\  
+    * C:\Program Files\Steam\steamapps\common\team fortress 2\tf\  
+    * Users/username/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom/ (Only for Macs)
 
 Help/Support  
 --------  
