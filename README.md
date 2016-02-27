@@ -1,10 +1,12 @@
 RebelHUD  
 =======  
 
+
 Screenshots  
 --------  
 
 * http://imgur.com/a/TKRZg  
+
 
 Installation  
 --------  
@@ -18,17 +20,19 @@ There are two ways to install this HUD.
  * C:\Program Files\Steam\steamapps\common\team fortress 2\tf\  
  * (Only for Macs) Users/username/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom/
  
+
 Help/Support  
 --------  
 
 If you want to enable the captions, put these lines in your autoexec file  
-  
+
 cc_lang "rebel"  
 closecaption "1"  
-  
+
 If you enjoy the HUD, please join the steam group. This is also where you should report bugs.  
 http://steamcommunity.com/groups/RebelHUD  
-  
+
+
 Credits  
 --------  
   
