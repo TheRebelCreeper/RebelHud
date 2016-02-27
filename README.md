@@ -23,7 +23,7 @@ Help/Support
 
 If you want to enable the captions, put these lines in your autoexec file
 
-cc_lang "rebel"
+cc_lang "rebel"  
 closecaption "1"
 
 If you enjoy the HUD, please join the [steam group](http://steamcommunity.com/groups/RebelHUD). This is also where you should report bugs.
@@ -31,5 +31,5 @@ If you enjoy the HUD, please join the [steam group](http://steamcommunity.com/gr
 Credits
 --------
   
-A large part of this HUD comes from PVHUD. I did not create PVHUD, only modified it where I felt it was needed.
+A large part of this HUD comes from PVHUD. I did not create PVHUD, only modified it where I felt it was needed.  
 I also looked at rayshud a lot to see how different elements worked.
