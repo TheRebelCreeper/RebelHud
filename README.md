@@ -29,7 +29,7 @@ If you want to enable the captions, put these lines in your autoexec file
 cc_lang "rebel"  
 closecaption "1"  
 
-If you enjoy the HUD, please join the steam group. This is also where you should report bugs.  
+If you enjoy the HUD, please join the [steam group](http://steamcommunity.com/groups/RebelHUD). This is also where you should report bugs.  
 http://steamcommunity.com/groups/RebelHUD  
 
 
