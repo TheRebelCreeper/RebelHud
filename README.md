@@ -11,7 +11,9 @@ Installation
 
 There are two ways to install this HUD.  
 
- 1. Drag the folder named custom to any of the following locations  
+ 1. Drag the folder named custom to any of the following locations
+ 
+ 2. 
  
 * C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\  
 * C:\Program Files\Steam\steamapps\common\team fortress 2\tf\  
