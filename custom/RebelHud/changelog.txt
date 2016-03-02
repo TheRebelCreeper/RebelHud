@@ -1,3 +1,7 @@
+v1.093
+{
+	Added support for Match Making on the main menu.
+}
 v1.092
 {
 	Fixed alignment issues with MVM.
