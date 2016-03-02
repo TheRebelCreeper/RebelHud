@@ -258,15 +258,20 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainMenuBGPanel"
 		"xpos"			"c-290"
-		"ypos"			"112"//92
+		"ypos"			"112"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"120"
+		"tall"			"120" // 120
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
+		
+		if_competitive
+		{
+			"tall"		"150"
+		}
 	}	
 	
 	"PlayLabel"
@@ -346,7 +351,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"c-185"
-		"ypos"			"203"//183
+		"ypos"			"203" // 203
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -357,6 +362,11 @@
 		"navLeft"		"ServerBrowserButton"
 		"navRight"		"TrainingButton"
 		"navToRelay"	"SubButton"
+		
+		if_competitive
+		{
+			"ypos"		"233"
+		}
 		
 		"SubButton"
 		{
@@ -1354,7 +1364,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"c-160"
-		"ypos"			"170"//180
+		"ypos"			"170" // 170
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1367,6 +1377,11 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"200"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1421,7 +1436,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"c-160"
-		"ypos"			"346"//326
+		"ypos"			"346" //346
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1434,6 +1449,11 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"376"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1549,13 +1569,12 @@
 		}
 	}
 
-
 	"ReplayBrowserButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"c-285"
-		"ypos"			"346"//326
+		"ypos"			"346" //346
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -1567,6 +1586,11 @@
 		"navRight"		"SteamWorkshopButton"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"376"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1621,7 +1645,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-160"
-		"ypos"			"273"//253
+		"ypos"			"273" //273
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1634,6 +1658,11 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"303"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1687,7 +1716,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"c-59"
-		"ypos"			"265"//245
+		"ypos"			"265" //265
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"
@@ -1695,6 +1724,11 @@
 		"enabled"		"1"
 		"image"			"../vgui/new"
 		"scaleImage"	"1"
+		
+		if_competitive
+		{
+			"ypos"		"295"
+		}
 	}
 	
 	"CharacterSetupButton"
@@ -1702,7 +1736,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-285"
-		"ypos"			"273"//253
+		"ypos"			"273" //273
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -1714,6 +1748,11 @@
 		"navRight"		"GeneralStoreButton"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"303"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1768,14 +1807,20 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StoreBGPanel"
 		"xpos"			"c-290"
-		"ypos"			"245"//225
+		"ypos"			"245" // 245
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
+		
+		if_competitive
+		{
+			"ypos"		"275"
+		}
 	}
+	
 	"CustomizeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1784,7 +1829,7 @@
 		"labelText"		"Items"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
-		"ypos"			"246"//226
+		"ypos"			"246" // 246
 		"wide"			"140"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -1792,6 +1837,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
+		
+		if_competitive
+		{
+			"ypos"		"276"
+		}
 	}
 
 	"CreateBGPanel"
@@ -1799,14 +1849,20 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreateBGPanel"
 		"xpos"			"c-290"
-		"ypos"			"319"//299
+		"ypos"			"319" //319
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
+		
+		if_competitive
+		{
+			"ypos"		"349"
+		}
 	}
+	
 	"CreateLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1815,7 +1871,7 @@
 		"labelText"		"#MMenu_Create"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
-		"ypos"			"318"//298
+		"ypos"			"318" //318
 		"wide"			"140"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -1823,6 +1879,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
+		
+		if_competitive
+		{
+			"ypos"		"348"
+		}
 	}
 	
 	"VRBGPanel"
@@ -2156,7 +2217,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
 		"xpos"			"c-285"
-		"ypos"			"170"//150
+		"ypos"			"170" // 170
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -2168,6 +2229,11 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"200"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2218,12 +2284,110 @@
 		}
 	}
 		
+	"PlayCompetitiveButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"PlayCompetitiveButton"
+		"xpos"			"c-285"
+		"ypos"			"170"
+		"zpos"			"11"
+		"wide"			"270"
+		"tall"			"36"
+		"visible"		"0"
+		"enabled"		"0"
+		"PaintBackgroundType"	"0"
+
+		"navUp"			"PlayPVEButton"
+		"navDown"		"ServerBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"250"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}	
+		
+	"CompetitiveBetaImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldname"		"CompetitiveBetaImage"
+		// Competitive button, plus offset.
+		"xpos"			"c-285+218"
+		"ypos"			"168"
+		"zpos"			"12"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"beta"
+		"scaleImage"	"1"
+		if_competitive
+		{
+				"visible"		"1"
+				"enabled"		"1"
+		}
+		if_competitive_stress_event
+		{
+			// Move up/left 10px, bump up to 20x20
+			"ypos"	"155"
+			"xpos"	"c-285+205"
+			"wide"	"56"
+			"tall"	"56"
+			"image"	"beta_stress"
+		}
+	}
+		
 	"ServerBrowserButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"c-285"
-		"ypos"			"200"//180
+		"ypos"			"200" // 200
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -2235,6 +2399,11 @@
 		"navRight"		"CreateServerButton"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"230"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2290,7 +2459,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
 		"xpos"			"c-285"
-		"ypos"			"200"//180
+		"ypos"			"200"
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
@@ -3839,7 +4008,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
 		"xpos"			"c-160"
-		"ypos"			"200"
+		"ypos"			"200" // 200
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -3852,6 +4021,11 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
+		if_competitive
+		{
+			"ypos"		"230"
+		}
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
