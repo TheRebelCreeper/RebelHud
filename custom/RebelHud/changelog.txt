@@ -1,3 +1,7 @@
+v1.096
+{
+	Fixed serveral bugs with matchmaking.
+}
 v1.093
 {
 	Added support for Match Making on the main menu.
