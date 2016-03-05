@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudVersion"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.09.5"
+		"labelText"		"Rebel HUD 1.09.6"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
@@ -1315,6 +1315,49 @@
 				"scaleImage"	"1"
 			}				
 		}		
+	
+		"Notifications_TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Notifications_TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%notititle%"
+			"textAlignment"	"north-west"
+			"xpos"			"12"
+			"ypos"			"8"
+			"wide"			"250"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"LabelDark"
+			"wrap"			"1"
+		}
+		
+		"Notifications_Scroller"
+		{
+			"ControlName"	"ScrollableEditablePanel"
+			"fieldName"		"Notifications_Scroller"
+			"xpos"			"8"
+			"ypos"			"25"
+			"wide"			"210"
+			"tall"			"135"
+			"PaintBackgroundType"	"2"
+			"fgcolor_override"	"117 107 94 255"
+			
+			"Notifications_Control"
+			{
+				"ControlName"	"CMainMenuNotificationsControl"
+				"fieldName"		"Notifications_Control"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"220"
+				"tall"			"135"
+				"visible"		"1"
+			}
+		}
+	}		
 	
 		"Notifications_TitleLabel"
 		{
