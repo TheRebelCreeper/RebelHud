@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudVersion"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.09.7"
+		"labelText"		"Rebel HUD 1.09.8"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
@@ -17,25 +17,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
-	}
-	
-	"HudVersionBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HudVersionBG"
-		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.08c"
-		"textAlignment"	"west"
-		"xpos"			"c-279"
-		"ypos"			"84"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fgcolor_override"	"0 0 0 255"
 	}
 
 	MainMenuOverride

@@ -83,7 +83,13 @@
 
 		if_comp
 		{
-			"ypos_minmode"			"0"
+			"xpos"				"c-55"
+			"ypos"				"0"
+			"zpos"				"2"
+			"wide"				"110"
+			"visible"			"0"
+			"enabled"			"1"
+		
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -111,11 +117,13 @@
 
 			if_comp
 			{
+				"wide"			"45"
+				"tall"			"31"
+				"visible"		"1"
+				"enabled"		"1"
 				"proportionaltoparent"	"1"
-
 				"xpos"			"cs-0.5"
 				"ypos"			"9"
-				"ypos_minmode"	"9"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
