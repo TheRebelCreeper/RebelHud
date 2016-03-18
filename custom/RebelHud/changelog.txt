@@ -1,3 +1,7 @@
+v1.098
+{
+	Fixed serveral bugs with matchmaking.
+}
 v1.096
 {
 	Fixed serveral bugs with matchmaking.
