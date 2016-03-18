@@ -38,7 +38,6 @@
 		"fieldName"		"BlueScoreBG2"
 		"xpos"			"0"
 		"ypos"			"78"
-		"ypos_minmode"	"38"
 		"wide"			"280"
 		"tall"			"16"
 		"visible"		"1"
@@ -55,15 +54,12 @@
 		"fieldName"		"BlueScoreBG3"
 		"xpos"			"0"
 		"ypos"			"94"
-		"ypos_minmode"	"54"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"236"
-		"tall_minmode"	"98"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
-		"fillcolor_minmode"	"52 62 77 128"
         if_mvm
         {
             "visible"   "0"
@@ -83,9 +79,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedScoreBG2"
 		"xpos"			"340"
-		"xpos_minmode"	"0"
 		"ypos"			"78"
-		"ypos_minmode"	"178"
 		"wide"			"280"
 		"tall"			"16"
 		"visible"		"1"
@@ -101,17 +95,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedScoreBG3"
 		"xpos"			"340"
-		"xpos_minmode"	"0"
 		"ypos"			"94"
-		"ypos_minmode"	"194"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"236"
-		"tall_minmode"	"98"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
-		"fillcolor_minmode"	"90 46 38 128"
         if_mvm
         {
             "visible"   "0"
@@ -146,7 +136,6 @@
 		"textAlignment"	"west"
 		"xpos"			"10"
 		"ypos"			"74"
-		"ypos_minmode"	"34"
 		"wide"			"180"
 		"tall"			"25"
 		"visible"		"1"
@@ -166,7 +155,6 @@
 		"textAlignment"	"east"
 		"xpos"			"228"
 		"ypos"			"68"
-		"ypos_minmode"	"28"
 		"zpos"			"4"
 		"wide"			"45"
 		"tall"			"25"
@@ -187,7 +175,6 @@
 		"textAlignment"	"east"
 		"xpos"			"230"
 		"ypos"			"70"
-		"ypos_minmode"	"30"
 		"zpos"			"4"
 		"wide"			"45"
 		"tall"			"25"
@@ -207,7 +194,6 @@
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"64"
-		"ypos_minmode"	"24"
 		"wide"			"100"
 		"tall"			"16"
 		"visible"		"1"
@@ -224,11 +210,8 @@
 		"font"			"DefaultLargeShadow"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
-		"textAlignment_minmode"	"west"
 		"xpos"			"410"
 		"ypos"			"74"
-		"xpos_minmode"	"10"
-		"ypos_minmode"	"174"
 		"wide"			"180"
 		"tall"			"25"
 		"visible"		"1"
@@ -246,14 +229,10 @@
 		"font"			"HUDFontBiggerBold"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"west"
-		"textAlignment_minmode"	"east"
 		"xpos"			"346"
 		"ypos"			"68"
-		"xpos_minmode"	"228"
-		"ypos_minmode"	"168"
 		"zpos"			"4"
 		"wide"			"100"
-		"wide_minmode"	"45"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -270,14 +249,10 @@
 		"fgcolor"		"SuperBlack"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"west"
-		"textAlignment_minmode"	"east"
 		"xpos"			"348"
 		"ypos"			"70"
-		"xpos_minmode"	"230"
-		"ypos_minmode"	"170"
 		"zpos"			"4"
 		"wide"			"100"
-		"wide_minmode"	"45"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -293,11 +268,8 @@
 		"font"			"DefaultSmallShadow"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"east"
-		"textAlignment_minmode" "west"
 		"xpos"			"518"
-		"xpos_minmode"	"0"
 		"ypos"			"64"
-		"ypos_minmode"	"164"
 		"wide"			"100"
 		"tall"			"16"
 		"visible"		"1"
@@ -418,11 +390,9 @@
 		"fieldName"		"BluePlayerList"
 		"xpos"			"0"
 		"ypos"			"90"
-		"ypos_minmode"	"50"
 		"zpos"			"20"
 		"wide"			"280"
 		"tall"			"240"
-		"tall_minmode"	"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
@@ -439,12 +409,9 @@
 		"fieldName"		"RedPlayerList"
 		"xpos"			"340"
 		"ypos"			"90"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"190"
 		"zpos"			"20"
 		"wide"			"280"
 		"tall"			"240"
-		"tall_minmode"	"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
@@ -471,10 +438,8 @@
 		"font"			"DefaultSmallShadow"
 		"labelText"		"%spectators%"
 		"textAlignment"	"west"
-		"textAlignment_minmode" "west"
 		"xpos"			"0"
 		"ypos"			"340"
-		"ypos_minmode"	"12"
 		"zpos"			"4"
 		"wide"			"599"
 		"tall"			"16"
@@ -495,7 +460,6 @@
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"352"
-		"ypos_minmode"	"292"
 		"zpos"			"4"
 		"wide"			"400"
 		"tall"			"12"
@@ -572,7 +536,6 @@
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
 		"ypos"			"395"
-		"ypos_minmode"	"300"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -801,9 +764,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"320"
 		}
 		"DeathsLabel"
 		{
@@ -820,9 +780,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"330"
 		}
 		"AssistsLabel"
 		{
@@ -838,9 +795,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"340"
 		}
 		
 		"Kills"
@@ -857,9 +811,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"320"
 		}
 		"Deaths"
 		{
@@ -875,9 +826,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"330"
 		}
 		"Assists"
 		{
@@ -893,9 +841,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"340"
 		}
 		
 		"CapturesLabel"
@@ -912,9 +857,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"360"
 		}
 		"DefensesLabel"
 		{
@@ -930,9 +872,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"370"
 		}
 		"DominationLabel"
 		{
@@ -948,9 +887,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"380"
 		}
 		"RevengeLabel"
 		{
@@ -966,9 +902,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"390"
 		}
 		"Captures"
 		{
@@ -984,9 +917,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"360"
 		}
 		"Defenses"
 		{
@@ -1002,9 +932,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"370"
 		}
 		"Domination"
 		{
@@ -1020,9 +947,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"380"
 		}
 		"Revenge"
 		{
@@ -1038,9 +962,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"390"
 		}
 		"HealingLabel"
 		{
@@ -1056,9 +977,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"400"
 		}
 		"DestructionLabel"
 		{
@@ -1074,9 +992,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"350"
 		}
 		"InvulnLabel"
 		{
@@ -1092,9 +1007,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"410"
 		}
 		"TeleportsLabel"
 		{
@@ -1110,9 +1022,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"420"
 		}
 		"HeadshotsLabel"
 		{
@@ -1128,9 +1037,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"430"
 		}
 		"Healing"
 		{
@@ -1146,9 +1052,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"400"
 		}
 		"Destruction"
 		{
@@ -1164,9 +1067,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"350"
 		}
 		"Invuln"
 		{
@@ -1182,9 +1082,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"410"
 		}
 		"Teleports"
 		{
@@ -1200,9 +1097,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"420"
 		}
 		"Headshots"
 		{
@@ -1218,9 +1112,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"430"
 		}
 		"BackstabsLabel"
 		{
@@ -1236,9 +1127,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"440"
 		}
 		"Backstabs"
 		{
@@ -1254,9 +1142,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"440"
 		}
 		"BonusLabel"
 		{
@@ -1273,9 +1158,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"450"
 		}
 		"Bonus"
 		{
@@ -1291,9 +1173,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"450"
 		}
 		"DamageLabel"
 		{
@@ -1310,9 +1189,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"450"
 		}
 		"SupportLabel"
 		{
@@ -1329,9 +1205,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"-50"
-			"ypos_minmode"	"450"
 		}
 		"Damage"
 		{
@@ -1347,9 +1220,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"450"
 		}
 		"Support"
 		{
@@ -1365,9 +1235,6 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-
-			"xpos_minmode"	"55"
-			"ypos_minmode"	"450"
 		}
 	}
     "MvMScoreboard"
