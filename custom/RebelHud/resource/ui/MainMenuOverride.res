@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudVersion"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.1.0"
+		"labelText"		"Rebel HUD 1.10.0"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
@@ -18,7 +18,7 @@
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
 	}
-
+	
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"
@@ -597,8 +597,8 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"c25"
+		"ypos"			"69"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -4059,7 +4059,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c0"
+		"xpos"			"c37"
 		"ypos"			"0"
 		"zpos"			"-60"
 		"wide"			"320"
