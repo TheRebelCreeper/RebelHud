@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudVersion"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.09.8"
+		"labelText"		"Rebel HUD 1.1.0"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
@@ -138,7 +138,7 @@
 			}
 		}
 	}	
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -213,10 +213,10 @@
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
-		
+
 		if_operation
 		{
-				"image"			"../logo/tough_break_logo"
+			"image"		"../logo/tough_break_logo"
 		}
 	}	
 	
@@ -242,13 +242,13 @@
 		"ypos"			"112"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"120" // 120
+		"tall"			"120"
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		if_competitive
 		{
 			"tall"		"150"
@@ -263,7 +263,7 @@
 		"labelText"		"#MMenu_Play"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
-		"ypos"			"113"//93
+		"ypos"			"113"
 		"wide"			"140"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -399,7 +399,7 @@
 			}				
 		}		
 	}
-	
+
 	"TopRightContainer"
 	{
 			"ControlName"	"EditablePanel"
@@ -422,7 +422,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c188"
+		"xpos"			"c148"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -520,6 +520,97 @@
 		}
 	}
 
+	"WatchStreamButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WatchStreamButton"
+		"xpos"			"c188"
+		"ypos"			"28"
+		"zpos"			"1"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"labelText"		""
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"command"		"watch_stream"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"button_streaming"
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}		
+		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"c5"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"350"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+	}
+
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -561,7 +652,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
@@ -845,7 +936,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
 		
@@ -864,34 +955,36 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 		}
 		
 		"MOTD_TitleImageBg"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_TitleImageBg"
-			"xpos"			"10"
+			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"99"
-			"wide"			"280"
-			"tall"			"180"
+			"wide"			"250"
+			"tall"			"150"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"item_bg"
 			"scaleImage"	"1"
+			"proportionaltoparent" "1"
 		}
 		
 		"MOTD_TitleImageContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_TitleImageContainer"
-			"xpos"			"10"
+			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"100"
-			"wide"			"280"
-			"tall"			"180"
+			"wide"			"250"
+			"tall"			"150"
 			"visible"		"1"
+			"proportionaltoparent" "1"
 			
 			"MOTD_TitleImage"
 			{
@@ -900,8 +993,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"280"
-				"tall"			"280"
+				"wide"			"250"
+				"tall"			"250"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"class_icons/filter_all"
@@ -914,11 +1007,11 @@
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
 			"xpos"			"20"
-			"ypos"			"240"
+			"ypos"			"215"
 			"wide"			"280"
-			"tall"			"95"
+			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor"		"LabelDark"
 			
 			"MOTD_TextPanel"
 			{
@@ -946,7 +1039,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"46 43 42 255"
+					"fgcolor"		"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -957,7 +1050,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
 			"xpos"			"75"
-			"ypos"			"339"
+			"ypos"			"rs1.2"
 			"wide"			"150"
 			"tall"			"15"
 			"autoResize"	"0"
@@ -974,6 +1067,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"command"		"motd_viewurl"
+			"proportionaltoparent" "1"
 
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_PrevButton"
@@ -1082,109 +1176,8 @@
 			}
 		}
 	}	
-	
-	"Notifications_ShowButtonPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c228"
-		"ypos"			"28"
-		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
 
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
-		"navRight"		"Notifications_Panel"
-		"navToRelay"	"Notifications_ShowButtonPanel_SB"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_achievements"
-			"scaleImage"	"1"
-			"drawcolor" "210 125 33 255"
-		}				
-		
-		"Notifications_CountLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Notifications_CountLabel"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"%noticount%"
-			"textAlignment"	"center"
-			"xpos"			"16"
-			"ypos"			"0"
-			"zpos"			"4"
-			"wide"			"16"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
-		}
-	
-		"Notifications_ShowButtonPanel_SB"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"Notifications_ShowButtonPanel_SB"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
 
-			"Command"		"noti_show"
-			"navActivate"	"<QuickplayButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"button_Alert"
-				"scaleImage"	"1"
-			}
-		}
-	}
-	
 	"ShowWarButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1338,14 +1331,14 @@
 				"visible"		"1"
 			}
 		}
-	}		
+	}
 	
 	"TrainingButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"c-160"
-		"ypos"			"170" // 170
+		"ypos"			"170"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1417,7 +1410,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"c-160"
-		"ypos"			"346" //346
+		"ypos"			"346"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1879,6 +1872,11 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
+
+		if_competitive
+		{
+			"ypos"		"378"
+		}
 	}
 
 	"ShowPromoCodesButton"
@@ -1993,6 +1991,7 @@
 		}
 	}
 
+	// command comes from GameMenu.res
 	"QuickplayButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2501,7 +2500,7 @@
 			}
 		}
 	}
-
+	
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -3159,7 +3158,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BackToReplaysButton"
-		"xpos"			"c-287"
+		"xpos"			"c-300"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"170"
@@ -4060,7 +4059,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c37"
+		"xpos"			"c0"
 		"ypos"			"0"
 		"zpos"			"-60"
 		"wide"			"320"
@@ -4294,8 +4293,8 @@
 			"zpos"					"100"
 			"wide"					"80"
 			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"0"
+			"visible"				"0"
+			"enabled"				"1"
 			"image"					"new_large"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"

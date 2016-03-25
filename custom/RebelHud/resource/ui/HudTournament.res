@@ -461,7 +461,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 		}
 		
 		if_readymode
@@ -756,7 +756,7 @@
 			"xpos"			"c-45"
 			"ypos"			"18"
 			"tall"			"35"
-			"visible"		"1"
+			"visible"		"0"
 			"font"			"TFFontMedium"
 		}
 
