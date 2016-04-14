@@ -194,10 +194,10 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_operation
-		{
-			"image"		"../console/title_team_tough_break"
-		}
+	//	if_operation
+	//	{
+	//		"image"		"../console/title_team_tough_break"
+	//	}
 	}
 					
 	"TFLogoImage"
