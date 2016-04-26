@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudVersion"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.10.0"
+		"labelText"		"Rebel HUD 1.10.2"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"83"
@@ -194,10 +194,10 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_operation
-		{
-			"image"		"../console/title_team_tough_break"
-		}
+	//	if_operation
+	//	{
+	//		"image"		"../console/title_team_tough_break"
+	//	}
 	}
 					
 	"TFLogoImage"
@@ -214,10 +214,10 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 
-		if_operation
-		{
-			"image"		"../logo/tough_break_logo"
-		}
+		//if_operation
+		//{
+		//	"image"		"../logo/tough_break_logo"
+		//}
 	}	
 	
 	"TFCharacterImage"
@@ -4245,30 +4245,25 @@
 				{
 					"0"
 					{
-						"item"		 	"Unused Operation Tough Break Pass"
-						"show_market"	"0"
-					}
-					"1"
-					{
 						"item"		"Tough Break Case 01 Pyroland"
 						"show_market"	"1"
 					}
-					"2"
+					"1"
 					{
 						"item"		"Tough Break Case 02 Warbirds"
 						"show_market"	"1"
 					}
-					"3"
+					"2"
 					{
 						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
-					"4"
+					"3"
 					{
 						"item"		"Tough Break Cosmetic Case"
 						"show_market"	"1"
 					}
-					"5"
+					"4"
 					{
 						"item"		"Tough Break Cosmetic Key"
 						"show_market"	"0"

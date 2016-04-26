@@ -12,8 +12,25 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
+			"xpos"			"0"
+			"ypos"			"15"
+			"wide"			"100"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fillcolor"		"70 130 180 153"
+			"scaleImage"		"1"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
+		}
+		"BlueScoreBG2"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BlueScoreBG2"
 			"xpos"			"0"
 			"ypos"			"15"
 			"wide"			"100"
@@ -28,8 +45,24 @@
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
+			"xpos"			"100"
+			"ypos"			"15"
+			"wide"			"100"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fillcolor"		"205 50 50 153"
+			"scaleImage"		"1"
+		}
+		
+		"RedScoreBG2"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RedScoreBG2"
 			"xpos"			"100"
 			"ypos"			"15"
 			"wide"			"100"
@@ -147,10 +180,10 @@
 		}					
 
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"WinPanelBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"0"
