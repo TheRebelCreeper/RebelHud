@@ -95,7 +95,8 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  						if_mvm
+			
+			if_mvm
 			{
 				"wide"		"55"
 				"tall"		"35"
@@ -467,6 +468,8 @@
 		if_readymode
 		{
 			"xpos"			"195"
+			"tall"			"20"
+			"ypos"			"20"
 			"visible"		"1"
 		}
 	}
