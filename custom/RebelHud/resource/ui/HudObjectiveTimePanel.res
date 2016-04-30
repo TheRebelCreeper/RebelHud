@@ -211,7 +211,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"ypos"					"21"
 			"ypos_minmode"			"17"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"

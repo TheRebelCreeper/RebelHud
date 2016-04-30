@@ -63,27 +63,20 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
-		"xpos"			"230"
-		"ypos"			"r55"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.1"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"5"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
+		"labelText"		"%countdown%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
-			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
-		}
+		"fgcolor"		"TanLight"
 
 		if_readymode
 		{
@@ -97,27 +90,20 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
-		"xpos"			"231"
-		"ypos"			"r54"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.08"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"4"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
+		"labelText"		"%countdown%"
 		"textAlignment"		"center"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.48"
-			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
-		}
 
 		if_readymode
 		{
@@ -228,9 +214,9 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
-
+		"wide"				"0"
+		"tall"				"0"
+		
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 	}
@@ -296,7 +282,7 @@
 				"enabled"		"1"
 				"proportionaltoparent"	"1"
 				"xpos"			"cs-0.5"
-				"ypos"			"9"
+				"ypos"			"12"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
