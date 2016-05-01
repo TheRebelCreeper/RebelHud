@@ -3453,6 +3453,15 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
+				"tall"		"78"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"600 899"
+			}
+			"2"
+			{
+				"name"		"TF2 Build"
 				"tall"		"80"
 				"weight"	"500"
 				"additive"	"0"
