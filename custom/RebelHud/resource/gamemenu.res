@@ -33,7 +33,7 @@
 
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Waste Cash"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
