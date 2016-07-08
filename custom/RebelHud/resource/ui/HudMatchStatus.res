@@ -1,8 +1,8 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -27,7 +27,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/round_banner.mdl"
+			"modelname"	"models/props_ui/banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -216,9 +216,15 @@
 		"zpos"				"0"
 		"wide"				"0"
 		"tall"				"0"
+		"visible"			"0"
 		
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
+		
+		if_match
+		{
+			"visible"	"1"
+		}
 	}
 	
 	"ObjectiveStatusTimePanel"
@@ -240,7 +246,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"DefaultLargerShadow"
 
-		if_comp
+		if_match
 		{
 			"xpos"				"c-55"
 			"ypos"				"0"
@@ -274,7 +280,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				"wide"			"45"
 				"tall"			"31"
@@ -564,7 +570,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 
 		"BlueTeamBG"
@@ -686,7 +692,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 
 		"RedTeamBG"

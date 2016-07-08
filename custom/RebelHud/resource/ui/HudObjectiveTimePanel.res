@@ -15,7 +15,7 @@
 		"image"			"../hud/objectives_timepanel_blue_bg"
 		"scaleImage"	"1"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -45,7 +45,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -66,7 +66,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -94,7 +94,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -117,7 +117,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -141,7 +141,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -162,7 +162,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -186,7 +186,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -207,7 +207,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -231,7 +231,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -254,7 +254,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -279,7 +279,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}	
