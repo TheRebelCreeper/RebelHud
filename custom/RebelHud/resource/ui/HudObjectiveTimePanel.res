@@ -69,9 +69,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"xpos"					"0"
+			"ypos"					"21"
 			"ypos_minmode"			"17"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -120,9 +121,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"xpos"					"0"
+			"ypos"					"21"
 			"ypos_minmode"			"17"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -165,9 +167,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"xpos"					"0"
+			"ypos"					"21"
 			"ypos_minmode"			"17"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -210,9 +213,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"21"
 			"ypos_minmode"			"17"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -257,9 +261,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"xpos"					"0"
+			"ypos"					"21"
 			"ypos_minmode"			"17"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"

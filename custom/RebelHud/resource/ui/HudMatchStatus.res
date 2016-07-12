@@ -248,10 +248,10 @@
 
 		if_match
 		{
-			"xpos"				"c-55"
+			"xpos"				"cs-0.5"
 			"ypos"				"0"
 			"zpos"				"2"
-			"wide"				"110"
+			"wide"				"130"
 			"visible"			"0"
 			"enabled"			"1"
 		
