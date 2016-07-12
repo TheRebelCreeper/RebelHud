@@ -66,6 +66,11 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"DefaultLargeShadow"
+		
+		if_match
+		{
+			"ypos"		"58"
+		}
 	}
 	"BuyBackLabel"
 	{
