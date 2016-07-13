@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
-		if_match
+		if_comp
 		{
 			"ypos"		"20"
 		}
@@ -43,7 +43,7 @@
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
 		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
 		
-		if_match
+		if_comp
 		{
 			"ypos"		"25"
 		}
@@ -61,7 +61,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 
-		if_match
+		if_comp
 		{
 			"ypos"		"20"
 		}
@@ -107,7 +107,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_match
+		if_comp
 		{
 			"ypos"		"17"
 		}
@@ -130,7 +130,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		
-		if_match
+		if_comp
 		{
 			"ypos"		"20"
 		}
@@ -154,7 +154,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		
-		if_match
+		if_comp
 		{
 			"ypos"		"20"
 		}
@@ -168,7 +168,7 @@
 		"ypos"			"27"
 		"zpos"			"-1"
 		"wide"			"110"
-		"tall"			"16"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -182,7 +182,7 @@
 		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"7"	
 		
-		if_match
+		if_comp
 		{
 			"ypos"		"42"
 		}
@@ -205,9 +205,9 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		
-		if_match
+		if_comp
 		{
-			"ypos"		"38"
+			"ypos"		"41"
 		}
 	}
 }
