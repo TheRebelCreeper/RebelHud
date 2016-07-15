@@ -44,6 +44,14 @@
 		"subimage" "glyph_items"
 	}
 
+	//"CreateServerButton"
+	//{
+	//	"label" "#GameUI_GameMenu_CreateServer"
+	//	"command" "OpenCreateMultiplayerGameDialog"
+	//	"OnlyAtMenu" "1"
+	//	"tooltip" "#GameUI_GameMenu_CreateServer"
+	//}
+	
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"

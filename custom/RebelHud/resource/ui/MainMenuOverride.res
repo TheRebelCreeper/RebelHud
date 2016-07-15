@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudVersion"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"Rebel HUD 1.10.4"
+		"labelText"		"Rebel HUD 1.10.5"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"88"
@@ -1403,6 +1403,68 @@
 		}
 	}
 
+	//"CreateServerButton"
+	//{
+	//	"ControlName"	"EditablePanel"
+	//	"fieldname"		"CreateServerButton"
+	//	"xpos"			"c-60"
+	//	"ypos"			"152" // 203
+	//	"zpos"			"12"
+	//	"wide"			"20"
+	//	"tall"			"20"
+	//	"visible"		"1"
+	//	
+	//	"SubButton"
+	//	{
+	//		"ControlName"	"CExImageButton"
+	//		"fieldName"		"SubButton"
+	//		"xpos"			"0"
+	//		"ypos"			"0"
+	//		"wide"			"20"
+	//		"tall"			"20"
+	//		"autoResize"	"0"
+	//		"pinCorner"		"3"
+	//		"visible"		"1"
+	//		"enabled"		"1"
+	//		"tabPosition"	"0"
+	//		"textinsetx"	"100"
+	//		"use_proportional_insets" "1"
+	//		"font"			"HudFontSmallBold"
+	//		"textAlignment"	"west"
+	//		"dulltext"		"0"
+	//		"brighttext"	"0"
+	//		"default"		"1"
+	//		"sound_depressed"	"UI/buttonclick.wav"
+	//		"sound_released"	"UI/buttonclickrelease.wav"
+	//		
+	//		"border_default"	"MainMenuMiniButtonDefault"
+	//		"border_armed"		"MainMenuMiniButtonArmed"
+	//		"paintbackground"	"0"
+	//		
+	//		"defaultFgColor_override" "46 43 42 255"
+	//		"armedFgColor_override" "46 43 42 255"
+	//		"depressedFgColor_override" "46 43 42 255"
+	//		
+	//		"image_drawcolor"	"235 226 202 255"
+	//		"image_armedcolor"	"235 226 202 255"
+	//		
+	//		"SubImage"
+	//		{
+	//			"ControlName"	"ImagePanel"
+	//			"fieldName"		"SubImage"
+	//			"xpos"			"4"
+	//			"ypos"			"4"
+	//			"zpos"			"1"
+	//			"wide"			"12"
+	//			"tall"			"12"
+	//			"visible"		"1"
+	//			"enabled"		"1"
+	//			"image"			"glyph_create"
+	//			"scaleImage"	"1"
+	//		}				
+	//	}		
+	//}
+	
 	"PlayListContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -1480,7 +1542,7 @@
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"CompetitiveEntry"
 					"xpos"			"0"
-					"ypos"			"53"
+					"ypos"			"51"
 					"tall"			"45"
 					"wide"			"p1"
 					"proportionaltoparent"	"1"
@@ -1496,7 +1558,7 @@
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"MvMEntry"
 					"xpos"			"0"
-					"ypos"			"103"
+					"ypos"			"99"
 					"tall"			"45"
 					"wide"			"p1"
 					"proportionaltoparent"	"1"
@@ -1512,7 +1574,7 @@
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"ServerBrowserEntry"
 					"xpos"			"0"
-					"ypos"			"153"
+					"ypos"			"147"
 					"tall"			"45"
 					"wide"			"p1"
 					"proportionaltoparent"	"1"
@@ -1523,12 +1585,28 @@
 					"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
 				}
 
+				"CreateServerEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"CreateServerEntry"
+					"xpos"			"0"
+					"ypos"			"195"
+					"tall"			"45"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_custom_server"
+					"button_token"		"#MMenu_PlayList_CreateServer_Button"
+					"button_command"	"OpenCreateMultiplayerGameDialog"
+					"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+				}
+				
 				"TrainingEntry"
 				{
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"TrainingEntry"
 					"xpos"			"0"
-					"ypos"			"203"
+					"ypos"			"243"
 					"tall"			"45"
 					"wide"			"p1"
 					"proportionaltoparent"	"1"
