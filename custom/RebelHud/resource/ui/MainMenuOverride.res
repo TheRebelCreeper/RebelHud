@@ -265,7 +265,7 @@
 		if_meet_your_match_2
 		{
 			"xpos"		"rs1"
-			"image"		"../console/title_team_pyro01_blu_widescreen"
+			"image"		"../console/title_team_pyro01_red_widescreen"
 		}
 		if_meet_your_match_3
 		{
