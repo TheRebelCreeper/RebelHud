@@ -1,3 +1,8 @@
+v1.10.6
+{
+	Fixed some bugs involving minmode and matchmaking
+	Added support for Scream Fortress 2016
+}
 v1.10.5.1
 {
 	Updated for end of Pyro vs Heavy
