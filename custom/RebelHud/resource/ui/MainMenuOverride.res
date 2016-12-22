@@ -1997,7 +1997,7 @@
 					}
 					"2"
 					{
-						"item"		"Taunt: The Didgeridrongo"
+						"item"		"Taunt: Didgeridrongo"
 						"show_market"	"0"
 					}
 					"3"
