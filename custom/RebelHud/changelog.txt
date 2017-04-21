@@ -1,3 +1,8 @@
+v1.10.8
+{
+	Added basic minmode
+	Moved health and ammo up slightly
+}
 v1.10.6
 {
 	Fixed some bugs involving minmode and matchmaking

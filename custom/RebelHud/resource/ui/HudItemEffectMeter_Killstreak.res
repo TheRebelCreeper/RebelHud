@@ -6,6 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"50"
+		"xpos_minmode"	"183"
 		"ypos"			"r135"
 		"wide"			"100"
 		"tall"			"50"
@@ -44,6 +45,7 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
+		"visible_minmode"		"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KillStreak"
@@ -52,6 +54,7 @@
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
+	
 
 	"ItemEffectMeter"
 	{	
@@ -90,5 +93,26 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
+	}
+	
+	"ItemEffectMeterCountBG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountBG"
+		"xpos"					"26"
+		"ypos"					"11"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontMedium"
+		"fgcolor"				"SuperBlack"
 	}
 }

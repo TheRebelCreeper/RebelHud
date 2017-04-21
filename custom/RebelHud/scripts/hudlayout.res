@@ -54,7 +54,8 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c80"
-		"ypos"	"r88"
+		"ypos"	"r100"
+		"ypos_minmode"	"r125"	
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"120"
 	}
@@ -222,6 +223,7 @@
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-280"
 		"ypos"					"r134"
+		"ypos_minmode"			"r159"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"

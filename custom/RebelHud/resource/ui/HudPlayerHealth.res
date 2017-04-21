@@ -1,6 +1,23 @@
 "Resource/UI/HudPlayerHealth.res"
 {
 
+	"HudPlayerHealth"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudPlayerHealth"
+		"xpos"			"c-340"
+		"ypos"			"r100"
+		"ypos_minmode"	"r125"
+		"zpos"			"2"
+		"wide"			"300"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"HealthBonusPosAdj"	"35"
+		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+	}
+
 	"HealthTeamColorBG1"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -73,21 +90,6 @@
 		"draw_corner_height" 	"0"
 	}
 
-	"HudPlayerHealth"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-340"
-		"ypos"			"r89"
-		"zpos"			"2"
-		"wide"			"300"
-		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
-		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
