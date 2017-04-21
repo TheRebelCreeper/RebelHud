@@ -1,3 +1,7 @@
+v1.10.8.1
+{
+	Fixed some overlap with demoman
+}
 v1.10.8
 {
 	Added basic minmode
