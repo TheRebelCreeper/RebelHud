@@ -1,3 +1,7 @@
+v1.10.9.0
+{
+	Added support for the Jungle Inferno Update!
+}
 v1.10.8.2
 {
 	Fixed some overlap with demoman
