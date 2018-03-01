@@ -1,3 +1,7 @@
+v1.11.0.0
+{
+	Moved health and ammo up a little bit
+}
 v1.10.9.0
 {
 	Added support for the Jungle Inferno Update!

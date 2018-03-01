@@ -54,9 +54,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c80"
-		"ypos"	"r100"
-		"ypos_minmode"	"r125"	
-		"wide"	"300" //was made 4 units taller in MvM update
+		"ypos"	"r125"
+		"ypos_minmode"	"r200"	
+		"wide"	"300"
 		"tall"	"120"
 	}
 
@@ -220,12 +220,12 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	CHealthAccountPanel
+	CHealthAccountPanel	// Health pickups i thik
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-280"
-		"ypos"					"r134"
-		"ypos_minmode"			"r159"
+		"ypos"					"r159"
+		"ypos_minmode"			"r234"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
