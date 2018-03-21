@@ -999,7 +999,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c120"
-		"ypos"			"r108"
+		"ypos"			"r105"
 		"ypos_minmode"	"r180"
 		"zpos"			"1"
 		"wide"			"200"

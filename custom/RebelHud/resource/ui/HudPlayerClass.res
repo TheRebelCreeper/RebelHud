@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible_minmode"	"1"
 		"enabled"		"1"		
 	}
 	"PlayerStatusClassImage"
