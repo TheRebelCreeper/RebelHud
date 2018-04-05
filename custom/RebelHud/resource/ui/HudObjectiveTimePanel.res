@@ -65,7 +65,7 @@
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"	"center"
 		"wrap"			"0"
-		"font"			"ClockSubTextTiny"
+		"font"			"Default"
 		
 		if_match
 		{
@@ -73,9 +73,6 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -116,7 +113,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"Default"
 		
 		if_match
 		{
@@ -124,9 +121,7 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"DefaultLarge"
 		}
 	}
 	"OvertimeBG"
@@ -161,7 +156,7 @@
 		"labelText"		"#game_SuddenDeath"
 		"textAlignment"	"center"
 		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
+		"font"			"Default"
 		
 		if_match
 		{
@@ -169,9 +164,6 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}
 	"SuddenDeathBG"
@@ -206,7 +198,7 @@
 		"labelText"		"#game_Setup"
 		"textAlignment"	"center"
 		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
+		"font"			"Default"
 		
 		if_match
 		{
@@ -214,9 +206,7 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"DefaultLarge"
 		}
 	}
 	"SetupBG"
@@ -246,7 +236,7 @@
 		"zpos"			"5"
 		"wide"			"85"
 		"tall"			"19"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
@@ -261,11 +251,9 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}
+	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
