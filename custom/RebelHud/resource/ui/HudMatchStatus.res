@@ -336,9 +336,9 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
 				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				//"font"			"HudFontSmall"
+				//"font_minmode"	"HudFontSmall"
+				//"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}
